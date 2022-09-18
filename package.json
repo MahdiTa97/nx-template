@@ -27,6 +27,8 @@
     "@nrwl/react": "14.7.5",
     "@nrwl/web": "14.7.5",
     "@nrwl/workspace": "14.7.5",
+    "@swc/core": "^1.2.173",
+    "@swc/jest": "0.2.20",
     "@testing-library/react": "13.3.0",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
