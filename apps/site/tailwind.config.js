@@ -5,7 +5,7 @@ const { join } = require('path');
 
 module.exports = {
   presets: [require('../../tailwind-workspace-preset.js')],
-  purge: [
+  content: [
     join(
       __dirname,
       '{src,pages,components}/**/*!(*.stories|*.spec).{ts,tsx,html}'
