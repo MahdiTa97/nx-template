@@ -1,4 +1,5 @@
 import styles from './index.module.css';
+import { TopicButton } from '@pj/shared/ui';
 
 export function Index() {
   /*
@@ -16,7 +17,7 @@ export function Index() {
               Welcome site 👋
             </h1>
           </div>
-
+          <TopicButton />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
@@ -239,7 +240,7 @@ export function Index() {
             <div id="other-links">
               <a
                 id="nx-console"
-                className="button-pill rounded shadow"
+                className="rounded shadow button-pill"
                 href="https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project"
                 target="_blank"
                 rel="noreferrer"
@@ -295,7 +296,7 @@ export function Index() {
               </div>
               <a
                 id="nx-repo"
-                className="button-pill rounded shadow"
+                className="rounded shadow button-pill"
                 href="https://github.com/nrwl/nx?utm_source=nx-project"
                 target="_blank"
                 rel="noreferrer"

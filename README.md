@@ -92,5 +92,17 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 COMMANDS:
 
 ```bash
-npx nx g @nrwl/react:lib ui --directory=shared --style=css
+npx create-nx-workspace@latest --preset=next
+
+npx nx g @nrwl/next:lib ui --directory=shared --style=css
+
+npx nx g @nrwl/next:component topic-button --project=shared-ui --style=css
+
+npx nx generate @nrwl/next:storybook-configuration --name=shared-ui --cypressDirectory=storybook-e2e
+
+npx nx storybook shared-ui
+
+  typescript: {
+    reactDocgen: false,
+  },
 ```

@@ -6,9 +6,9 @@ export interface TopicButtonProps {}
 export function TopicButton(props: TopicButtonProps) {
   return (
     <div className={styles['container']}>
-      <div className="bg-red-800 pl-4 rounded-lg shadow flex max-w-md min-w-max hover:shadow-md transition-shadow">
+      <div className="flex max-w-md pl-4 transition-shadow bg-red-800 rounded-lg shadow min-w-max hover:shadow-md">
         <div className="p-5 bg-red-800">
-          <h2 className="font-bold text-4xl">Hello</h2>
+          <h2 className="text-4xl font-bold">Hello</h2>
         </div>
       </div>
     </div>
